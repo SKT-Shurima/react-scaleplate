@@ -1,0 +1,17 @@
+{
+  "name": "react-scaleplate",
+  "version": "1.0.0",
+  "description": "x,y scaleplate by canvas",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-scaleplate",
+    "react",
+    "scalelate",
+    "canvas"
+  ],
+  "author": "Hassan Lee",
+  "license": "ISC"
+}
