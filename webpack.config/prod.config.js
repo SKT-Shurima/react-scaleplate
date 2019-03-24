@@ -3,7 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   mode: 'production',
-  entry: './src/scaleplate.js',
+  entry: './src/autosuggest.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, '../dist'),
@@ -19,10 +19,6 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-      },
-      {
-        test: /\.less$/,
-        use: ['style-loader', 'less-loader']
       }
     ]
   },

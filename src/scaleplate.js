@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import styles from './scaleplate.less';
+import styles from './scaleplate.css';
 
 export default class Scaleplate extends Component {
-  // static defaultProps = {
-  //   width: 800,
-  //   height: 800,
-  //   axisMargin: 0,
-  //   axisOrigin: { x: 16, y: 16 },
-  //   axisLineWidth: 0.5,
-  //   tickWidth: 20,
-  //   ticksLineWidth: 0.5,
-  //   horizontalTickSpacing: 10,
-  //   verticalTickSpacing: 10
-  // };
+  static defaultProps = {
+    width: 800,
+    height: 800,
+    axisMargin: 0,
+    axisOrigin: { x: 16, y: 16 },
+    axisLineWidth: 0.5,
+    tickWidth: 20,
+    ticksLineWidth: 0.5,
+    horizontalTickSpacing: 10,
+    verticalTickSpacing: 10
+  };
 
   componentDidMount() {
     this.context = this.scaleplate.getContext('2d');
