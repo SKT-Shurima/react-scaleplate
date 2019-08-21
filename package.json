@@ -1,6 +1,6 @@
 {
   "name": "react-scaleplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "x,y scaleplate by canvas",
   "main": "lib/index.js",
   "scripts": {
